@@ -1,4 +1,4 @@
-# This program finds the top 30 most common words of csv_text.txt and store into a csv file. 
+# This program finds the top 30 most common words and their count in csv_text.txt and store into a csv file. 
 
 import csv
 
