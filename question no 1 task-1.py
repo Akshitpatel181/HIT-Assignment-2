@@ -4,7 +4,7 @@ import csv # library to open .csv file
 
 filenames = ['CSV1.csv', 'CSV2.csv', 'CSV3.csv', 'CSV4.csv']
 
-with open('new_file.txt', 'w') as file1: 
+with open('csv_text.txt', 'w') as file1: 
     for filename in filenames: # iterate through all files
         with open(filename, 'r') as file2: # to open each .csv file
             csvreader = csv.reader(file2) # from csv library
