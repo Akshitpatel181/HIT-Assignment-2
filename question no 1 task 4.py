@@ -25,7 +25,7 @@ model2 = spacy.load("en_ner_bc5cdr_md")
 word_list_1 = [] # for entities extracted with en_core_sci_sm
 word_list_2 = [] # for entities extracted with en_ner_bc5cdr_md
 
-with open('new_file.txt', 'r') as file:
+with open('csv_text.txt', 'r') as file:
     long_string = file.read() # contains all text
 
     # PREPROCESS TEXT
